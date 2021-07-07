@@ -159,12 +159,12 @@ footer {
   color: white;
   border-radius: 10px;
   display: block;
+  text-decoration: none;
 }
 
 .btn-grad:hover {
   background-position: right center;
   color: #fff;
-  text-decoration: none;
 }
 .rocket {
   height: 100px;
