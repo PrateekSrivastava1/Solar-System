@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="index.css" />
+  </head>
+  <body>
+    <div id="welcome">
+      <div class="heading ">
+        <h1>Solar System</h1>
+        <br>
+        <h3>If you want treasure, click on one of the Planets</h3>
+      </div>
+    </div>
+    <section class="space">
+      <div class="stars">
+        <div class="stars-back"></div>
+        <div class="stars-middle"></div>
+        <div class="stars-front"></div>
+      </div>
+    </section>
+    <a href="/info.html">
+      <div class="solarSystem">
+        <div class="starr sun"></div>
+        <div class="planet mercury"></div>
+        <div class="planet venus"></div>
+        <div class="planet earth"></div>
+        <div class="planet mars"></div>
+        <div class="planet jupitar"></div>
+        <div class="planet saturn"></div>
+        <div class="planet uranus"></div>
+        <div class="planet neptune"></div>
+      </div>
+    </a>
+
+    <!-- <div class="info">
+   <a href="/info.html"> this is  solarSystem </a>
+</div> -->
+    <script src="https://code.jquery.com/jquery-3.6.0.js"></script>
+
+    <script>
+      jQuery(document).ready(function ($) {
+        "use strict";
+        $("#welcome").delay(3000).fadeOut("slow");
+      });
+    </script>
+  </body>
+</html>
