@@ -115,7 +115,7 @@ const flightPath = {
 {x: -450 , y: 3340},
 
 {x: -100 , y: 3330},
-{x: window.innerWidth, y: -450}
+{x: window.innerWidth, y: 300}
 
 // ----------------------------------
 ]};
